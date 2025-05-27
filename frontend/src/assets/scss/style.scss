@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
-$pink: #cd4df1;
-$primary: #7d2ae8;
+$pink: #8fc0f4;
+$primary: #5271FF;
 $secondary: #F14D5D;
 $light: #ECF4FF;
 $dark: #120F2D;
@@ -122,7 +122,7 @@ height:200px;
 }
 
 .jumbotron {
-    background: linear-gradient(rgba(40, 120, 235, 0.25), rgb(235 40 229 / 58%)), url(../images/header.jpg), no-repeat center center;
+    background: linear-gradient(rgba(119, 174, 246, 0.25), rgba(131, 212, 246, 0.58)), url(../images/header.jpg), no-repeat center center;
     background-size: cover;
 }
 
@@ -153,10 +153,10 @@ height:200px;
     background-size: contain;
 }
 .bg-pink{
-    background: #8e85df;
+    background: #6197e2;
 }
 .bg-dpink{
-    background: #7b74b9;
+    background: #2783fc;
 }
 .right-radious{
     border-radius: 0 0 100px 0;
@@ -219,7 +219,7 @@ height:200px;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      border-top:4px solid #7d2ae8;
+      border-top:4px solid #5271FF;
     }
 
     .incentive-box h4 {
@@ -239,7 +239,7 @@ height:200px;
       color: #fff;
       transform: translateY(-8px);
       border-top:none;
-      border-bottom:4px solid #7d2ae8;
+      border-bottom:4px solid #06219c;
     }
 
     .incentive-box:hover h4,
@@ -258,7 +258,7 @@ height:200px;
 }
 .client_section .box:hover .img-box{
 //   border-color: #ff6f00; /* Change border color on hover */
-  border: 4px solid  #ae40b2; /* Initial gradient */
+  border: 4px solid  #36b5ff; /* Initial gradient */
   transform: scale(1.1) rotate(10deg);
 }
 .client_section {
@@ -281,8 +281,8 @@ height:200px;
             overflow: hidden;
             margin-right: -65px;
             position: relative;
-            background: #7d2ae8;
-            border: 5px solid #19c880; /* Base transparent border */
+            background: #5271FF;
+            border: 5px solid #61a7e3; /* Base transparent border */
             background-size: 400% 400%; /* For smooth gradient shifts */
             transition: transform 0.4s ease;
             animation: gradientMove 10s ease infinite;
@@ -315,13 +315,13 @@ height:200px;
                 .client_name {
                     h5 {
                     font-weight: bold;
-                    color: #8019c8;
+                    color: #127bdd;
                     margin-bottom: 10px;
                     text-transform: uppercase;
                     }
                     h6 {
                         margin-bottom: 0;
-                        color: #8d8a8a;
+                        color: #127bdd;
                         font-weight: normal;
                         font-size: 18px;
                         // text-transform: uppercase;
