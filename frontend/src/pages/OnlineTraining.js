@@ -63,10 +63,10 @@ const OnlineTraining = () => {
                 <tbody>
                   <tr>
                     <td>May 28, 2025</td>
-                    <td>Science Fair Planning</td>
+                    <td>Empowering Educators: Monthly Online Space Education Session</td>
                     <td>
                       {isAuthenticated && !hasSubscription ? (
-                        <div className="text-center mt-4">
+                        <div className="text-center">
                           <button
                             className="btn btn-primary"
                             onClick={(e) => {

@@ -8,7 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import diglib from "../assets/images/diglib.jpg";
+import meetingtime from "../assets/images/meetingtime.jpg";
 import lms from "../assets/images/lms.jpg";
 import online from "../assets/images/online.jpg";
 import offline from "../assets/images/Offline.jpg";
@@ -128,15 +128,17 @@ const Home = () => {
       <div className="client_section container">
         <div className="box">
           <div className="img-box">
-            <img src={diglib} alt="Digital Libraries" />
+            <img src={meetingtime} alt="Meeting Details" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Digital Libraries and e-Learning Platforms</h5>
-                <h6>
-                  Access to thousands of e-books, online courses from top
-                  universities
+                <h5>Empowering Educators: Monthly Online Space Education Session</h5>
+                <h6>📅 Every Saturday<br/>
+                    🕒 Time: 5:00 PM – 6:00<br/>
+                    📍 Live on: Google Meet<br/>
+                    🎓 For Teachers of Grades 6 to 12<br/>
+                    🧾 E-Certificates for Participation
                 </h6>
               </div>
             </div>
@@ -145,7 +147,7 @@ const Home = () => {
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                handleClickHere("ebook");
+                handleClickHere("online");
               }}
             >
               View Details
@@ -154,19 +156,21 @@ const Home = () => {
         </div>
         <div className="box">
           <div className="img-box">
-            <img src={lms} alt="LMS" />
+            <img src={meetingtime} alt="Meeting Details" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Learning Management System (LMS)</h5>
-                <h6>
-                  Educational software and tools, virtual labs and, educational
-                  games
+                <h5>What You’ll Learn</h5>
+                <h6>Simplifying <strong>James Webb Space Telescope</strong>  discoveries for classroom use<br/>
+                Teaching <strong>Artemis Missions</strong>  and Moon landings in relatable ways<br/>
+                Integrating <strong>India’s Chandrayaan & Aditya missions</strong>  into curriculum.<br/>
+                Crafting project-based learning from <strong>SpaceX and ISRO</strong>  case studies<br/>
+                Using free NASA/ISRO simulators & resources to spark curiosity<br/>
                 </h6>
               </div>
             </div>
-            <a
+            {/* <a
               className="btn btn-primary mt-5 text-center"
               href="#"
               onClick={(e) => {
@@ -175,7 +179,7 @@ const Home = () => {
               }}
             >
               View Details
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="box">
@@ -185,11 +189,11 @@ const Home = () => {
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Monthly online workshops</h5>
-                <h6>
-                  Topics like innovative teaching methods, technology
-                  integration, educational leadership
-                </h6>
+                <h5>Perfect For:</h5>
+                <h6>Science Teachers (Grades 6 to 12)<br/>
+                STEM Coordinators<br/>
+                School Curriculum Planners<br/>
+                Teachers seeking engaging classroom practices and NEP-aligned content</h6>
               </div>
             </div>
             <a
