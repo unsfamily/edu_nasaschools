@@ -135,7 +135,7 @@ const Home = () => {
               <div className="client_name">
                 <h5>Empowering Educators: Monthly Online Space Education Session</h5>
                 <h6>📅 Every Saturday<br/>
-                    🕒 Time: 5:00 PM – 6:00<br/>
+                    🕒 Time: 4:00 PM – 5:00<br/>
                     📍 Live on: Google Meet<br/>
                     🎓 For Teachers of Grades 6 to 12<br/>
                     🧾 E-Certificates for Participation
