@@ -156,7 +156,7 @@ const Home = () => {
         </div>
         <div className="box">
           <div className="img-box">
-            <img src={meetingtime} alt="Meeting Details" />
+            <img src={offline} alt="Meeting Details" />
           </div>
           <div className="detail-box">
             <div className="client_info">
@@ -184,19 +184,19 @@ const Home = () => {
         </div>
         <div className="box">
           <div className="img-box">
-            <img src={online} alt="Online Workshops" />
+            <img src={meetingtime} alt="Online Workshops" />
           </div>
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
                 <h5>Perfect For:</h5>
                 <h6>Science Teachers (Grades 6 to 12)<br/>
-                STEM Coordinators<br/>
-                School Curriculum Planners<br/>
+                STEM Coordinators.
+                School Curriculum Planners. 
                 Teachers seeking engaging classroom practices and NEP-aligned content</h6>
               </div>
             </div>
-            <a
+            {/* <a
               className="btn btn-primary mt-5 text-center"
               href="#"
               onClick={(e) => {
@@ -205,7 +205,7 @@ const Home = () => {
               }}
             >
               View Details
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="box">
@@ -215,14 +215,16 @@ const Home = () => {
           <div className="detail-box">
             <div className="client_info">
               <div className="client_name">
-                <h5>Quaterly offline workshops</h5>
+                <h5>Detailed Topic Suggestions: </h5>
                 <h6>
-                  Professional development workshops, hands-on training for
-                  teachers, leadership development
+                  <b>Each topic includes:</b><br/>
+                    1. Contemporary Relevance<br/>
+                    2. Teaching Methodology Tip<br/>
+                    3. Resource Suggestions
                 </h6>
               </div>
             </div>
-            <a
+            {/* <a
               className="btn btn-primary mt-5 text-center"
               href="#"
               onClick={(e) => {
@@ -231,10 +233,10 @@ const Home = () => {
               }}
             >
               View Details
-            </a>
+            </a> */}
           </div>
         </div>
-        <div className="box">
+        {/* <div className="box">
           <div className="img-box">
             <img src={networking} alt="Networking" />
           </div>
@@ -256,8 +258,8 @@ const Home = () => {
               View Details
             </a>
           </div>
-        </div>
-        <div className="box">
+        </div> */}
+        {/* <div className="box">
           <div className="img-box">
             <img src={collab} alt="Collaborative Projects" />
           </div>
@@ -279,8 +281,8 @@ const Home = () => {
               View Details
             </a>
           </div>
-        </div>
-        <div className="box">
+        </div> */}
+        {/* <div className="box">
           <div className="img-box">
             <img src={industry} alt="Industry" />
           </div>
@@ -304,8 +306,8 @@ const Home = () => {
               View Details
             </a>
           </div>
-        </div>
-        <div className="box">
+        </div> */}
+        {/* <div className="box">
           <div className="img-box">
             <img src={digvideo} alt="Digital Videos" />
           </div>
@@ -329,9 +331,9 @@ const Home = () => {
               View Details
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="section-title text-center">
           <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2 my-4">
             Additional Incentives
@@ -372,7 +374,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>
